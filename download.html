@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Скачать — Sada.muz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg-glow"></div>
+
+    <nav>
+        <a href="index.html" class="logo">Sada<span>.muz</span></a>
+        <ul class="nav-links">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="features.html">Возможности</a></li>
+            <li><a href="download.html" class="active">Скачать</a></li>
+            <li><a href="about.html">О проекте</a></li>
+        </ul>
+    </nav>
+
+    <div class="page-header">
+        <h1>
+            <span class="typewriter-text" data-text="Установи Sada"></span><span class="typewriter-text highlight" data-text=".muz"></span>
+        </h1>
+        <p>Выбери свою платформу. Установка занимает меньше минуты.</p>
+    </div>
+
+    <section class="section">
+        <div class="grid">
+            <div class="card">
+                <div class="card-icon"><img src="icons/windows.svg" alt="Windows"></div>
+                <h3>Windows</h3>
+                <p>Установщик для Windows 10 и 11 (64-bit). Версия 1.0.2, размер — 42 МБ.</p>
+                <br>
+                <a href="#" class="btn btn-primary" onclick="alert('Ссылка на установщик скоро появится!')" style="display:inline-flex;">
+                    Скачать .exe
+                </a>
+            </div>
+            <div class="card">
+                <div class="card-icon"><img src="icons/macos.svg" alt="macOS"></div>
+                <h3>macOS</h3>
+                <p>Универсальный образ для Apple Silicon и Intel. Требуется macOS 11 Big Sur и выше.</p>
+                <br>
+                <a href="#" class="btn btn-outline" onclick="alert('Ссылка на .dmg скоро появится!')" style="display:inline-flex;">
+                    Скачать .dmg
+                </a>
+            </div>
+            <div class="card">
+                <div class="card-icon"><img src="icons/linux.svg" alt="Linux"></div>
+                <h3>Linux</h3>
+                <p>Пакеты AppImage и .deb для Debian/Ubuntu. Скоро в репозиториях.</p>
+                <br>
+                <a href="#" class="btn btn-outline" onclick="alert('Пакеты для Linux скоро появятся!')" style="display:inline-flex;">
+                    Скачать AppImage
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 <span class="mint">Sada.muz</span>. Сделано с любовью к музыке.</p>
+    </footer>
+
+    <!-- Импорт скрипта -->
+    <script src="script.js"></script>
+</body>
+</html>

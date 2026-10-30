@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sada.muz — Музыка в твоем ритме</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg-glow"></div>
+
+    <nav>
+        <a href="index.html" class="logo">Sada<span>.muz</span></a>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Главная</a></li>
+            <li><a href="features.html">Возможности</a></li>
+            <li><a href="download.html">Скачать</a></li>
+            <li><a href="about.html">О проекте</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <h1>
+            <span class="typewriter-text" data-text="Твоя музыка."></span><br>
+            <span class="typewriter-text highlight" data-text="Твой ритм."></span>
+        </h1>
+        
+        <p class="reveal">Sada.muz — минималистичный десктопный плеер для тех, кто ценит чистый звук и удобство. Никакой лишней мишуры — только любимые треки на вашем компьютере.</p>
+        
+        <div class="download-buttons reveal">
+            <!-- Кнопка для Windows -->
+            <a href="download.html" class="btn btn-primary">
+                <img src="icons/windows.svg" alt="" width="24" height="24" style="filter: brightness(0);">
+                Скачать для Windows
+            </a>
+            <!-- Кнопка для macOS -->
+            <a href="download.html" class="btn btn-outline">
+                <img src="icons/macos.svg" alt="" width="24" height="24">
+                Скачать для macOS
+            </a>
+        </div>
+    </section>
+
+    <!-- Бегущая строка -->
+    <div class="marquee-wrapper">
+        <div class="marquee-content">
+            <!-- 2 раза для анимации -->
+            <span>Поддержка FLAC</span>
+            <span>10-полосный эквалайзер</span>
+            <span>Горячие клавиши</span>
+            <span>Мини-плеер</span>
+            <span>Без рекламы</span>
+            <span>Локальная библиотека</span>
+            
+            <span>Поддержка FLAC</span>
+            <span>10-полосный эквалайзер</span>
+            <span>Горячие клавиши</span>
+            <span>Мини-плеер</span>
+            <span>Без рекламы</span>
+            <span>Локальная библиотека</span>
+        </div>
+    </div>
+
+    <!-- Блок со скриншотом (плейсхолдер) -->
+    <section class="showcase reveal">
+        <div class="screenshot-placeholder">
+            <!-- Иконка картинки -->
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+            </svg>
+            <p>Здесь скоро появится скриншот плеера</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 <span class="mint">Sada.muz</span>. Сделано с любовью к музыке.</p>
+    </footer>
+
+    <!-- Импорт скрипта -->
+    <script src="script.js"></script>
+</body>
+</html>
